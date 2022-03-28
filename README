@@ -34,6 +34,9 @@ String Methods
 'TEST'.toLowerCase() = 'test'
 .replace('e','x')
 .replaceAll('e','x')
+"I am a ninja".split(' ') = ['I','am','a','ninja']
+['I','am','a','ninja'].join(' ') = "I am a ninja"
+['I','am','a','ninja'].join() = "I,am,a,ninja"
 
 
 
