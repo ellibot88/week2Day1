@@ -1,0 +1,39 @@
+Functions
+
+Normal syntax
+
+function myFunction(param1,param2){
+
+return answer
+
+}
+
+Arrow function syntax
+
+let myFunction = (param1,param2) =>{
+
+return answer
+
+}
+
+Data Type Conversion
+JS is a loosely typed language (we don't need to tell it what data type a variable is)
+Boolean global function (Boolean(5) = true) (Boolean(0) = false)
+The number 0 and empty strings are the only thing that will return false for Boolean function
+Number global function (Number(true) = 1) (Number(false) = 0)
+ParseInt global function: different than Number function because it will search within the string for a number
+Example: ParseInt('42 ft') = 42 AND Number('42 ft') = Nan
+String global function (String(22) = '22') (String(false) = "false")
+
+
+String Methods
+.includes()
+.startsWith()
+.endsWith()
+'test'.toUpperCase() = 'TEST' 
+'TEST'.toLowerCase() = 'test'
+.replace('e','x')
+.replaceAll('e','x')
+
+
+
